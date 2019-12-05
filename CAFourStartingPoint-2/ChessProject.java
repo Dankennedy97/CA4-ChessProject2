@@ -70,12 +70,19 @@ public class ChessProject extends JFrame implements MouseListener, MouseMotionLi
         }
 
         // Setting up the Initial Chess board.
-/*
+    /*this initially causes imidiate win as ai can only move king at the start
+    
   	for(int i=8;i < 16; i++){
        		pieces = new JLabel( new ImageIcon("WhitePawn.png") );
 			panels = (JPanel)chessBoard.getComponent(i);
 	        panels.add(pieces);
-		}*/
+		}
+    */
+  	for(int i=8;i < 16; i++){
+       		pieces = new JLabel( new ImageIcon("WhitePawn.png") );
+			panels = (JPanel)chessBoard.getComponent(i);
+	        panels.add(pieces);
+		}
 		pieces = new JLabel( new ImageIcon("WhiteRook.png") );
 		panels = (JPanel)chessBoard.getComponent(0);
 	    panels.add(pieces);

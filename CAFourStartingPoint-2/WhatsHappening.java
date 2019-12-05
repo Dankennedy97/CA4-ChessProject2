@@ -18,7 +18,7 @@
     ...
     Boolean validMove = false;
 
-*/
+
 int landingX = (e.getX()/75);
 int landingY  = (e.getY()/75);
 int xMovement = Math.abs((e.getX()/75)-startX);
@@ -30,3 +30,4 @@ System.out.println("The xMovement is : "+xMovement);
 System.out.println("The yMovement is : "+yMovement);
 System.out.println("The landing coordinates are : "+"( "+landingX+","+landingY+")");
 System.out.println("----------------------------------------------");
+*/
